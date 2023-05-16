@@ -1,0 +1,218 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: raleway;
+  src: url(../font/Raleway-Regular.ttf);
+}
+.wrap {
+  width: 700px;
+  height: 500px;
+  background-color: rgb(79, 79, 79);
+}
+.wrap .first {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 15px;
+}
+.wrap .title {
+  width: 90%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.wrap .title h1 {
+  color: white;
+  font-family: raleway;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 1.5px;
+}
+.wrap .textbox {
+  width: 90%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.wrap .textbox h2 {
+  color: white;
+  font-family: raleway;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 1.5px;
+}
+.wrap .textbox p {
+  color: white;
+  font-family: raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+.wrap .but1 {
+  width: 40%;
+  height: 40px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(180deg, rgb(255, 255, 255) 3%, rgb(204, 132, 0) 61%);
+  border: none;
+  color: black;
+  font-family: raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+.wrap .but1:hover {
+  background: rgb(255, 0, 0);
+  background: linear-gradient(180deg, rgb(255, 0, 0) 3%, rgb(204, 132, 0) 61%);
+}
+.wrap .second {
+  display: none;
+}
+.wrap .visible {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+.wrap .visible .krest {
+  width: 90%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+.wrap .visible .krest .kr {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.wrap .visible .krest .kr .line {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+}
+.wrap .visible .krest .kr .line:nth-child(1) {
+  transform: rotate(45deg);
+  position: relative;
+  top: 9px;
+}
+.wrap .visible .krest .kr .line:nth-child(2) {
+  transform: rotate(-45deg);
+  position: relative;
+  bottom: 9px;
+}
+.wrap .visible .main {
+  width: 90%;
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrap .visible .main img {
+  width: 40%;
+  height: 60%;
+}
+.wrap .visible .main form {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.wrap .visible .main form .inputs {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+}
+.wrap .visible .main form .inputs input {
+  height: 35px;
+  width: 100%;
+  padding: 5px;
+  font-family: raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+.wrap .visible .main form .inputs label {
+  color: white;
+  font-family: raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+.wrap .visible .button {
+  width: 90%;
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+.wrap .visible .button .but2 {
+  width: 40%;
+  height: 100%;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(180deg, rgb(255, 255, 255) 3%, rgb(204, 132, 0) 61%);
+  font-family: raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 1px;
+  border: none;
+}
+.wrap .visible .button .but2:hover {
+  background: rgb(255, 0, 0);
+  background: linear-gradient(180deg, rgb(255, 0, 0) 3%, rgb(204, 132, 0) 61%);
+}
+.wrap .third {
+  display: none;
+  background-color: blue;
+}
+
+.visible {
+  display: flex;
+}
+
+.visible_th {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(75, 75, 75);
+}
+.visible_th h2 {
+  color: white;
+  font-family: raleway;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 1.5px;
+}
+.visible_th p {
+  color: white;
+  font-family: raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+
+.disable {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
